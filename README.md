@@ -15,20 +15,10 @@ Both models were trained using SMOTE to address class imbalance. KNN was additio
 
 These resampling strategies demonstrated strong generalisation, yielding average F1-scores of 0.80 and 0.81, respectively. The final KNN model (k=3) selected via cross-validation achieved a training accuracy of 93% and AUC of 0.99. While KNN (k=5) gave the best recall on the test set (0.70), the cross-validated KNN model was retained for its superior robustness to unseen data.
 
----
-
-📂 FILES SUBMITTED
-
-- Assignment2.ipynb – Main notebook with preprocessing, modelling, and evaluation.
-- report.pdf – 12-page final report with discussion, figures, and validation details.
-- README.txt – Project summary and reproducibility instructions.
-
----
-
 📄 HOW TO RUN
 
 Recommended: In Google Colab
-1. Upload `Assignment2.ipynb` to Google Colab.
+1. Upload `model.ipynb` to Google Colab.
 2. Mount your Google Drive:
    from google.colab import drive  
    drive.mount('/content/drive')
